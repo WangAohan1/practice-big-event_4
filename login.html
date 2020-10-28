@@ -9,7 +9,33 @@
     <link rel="stylesheet" href="/css/login.css">
 </head>
 
-<
+<body>
+    <div class="log">
+        <img src="/assets/images/logo.png" alt="">
+    </div>
+    <!-- 弹出层登录 -->
+    <div class="login together">
+        <div class="layui-form-item">
+            <img src="/assets/images/login_title.png" class="imgs">
+        </div>
+        <form class="layui-form" id="logform" action="">
+            <div class="layui-form-item">
+                <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                    class="layui-input">
+            </div>
+
+            <div class="layui-form-item">
+                <input type="text" name="password" required lay-verify="required | pass" placeholder="请输入密码" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <div class="layui-form-item ">
+                <button class="layui-btn layui-btn-fluid" >登录</button>
+            </div>
+            <div class="layui-form-item ">
+                <a href="javascript:;" id="goloing">去注册</a>
+            </div>
+        </form>
+    </div>
 
     <!-- 弹出层注册 -->
     <div class="reglogin together" style="display: none;">
