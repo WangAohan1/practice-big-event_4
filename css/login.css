@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/banner_bg\(1\).jpg') no-repeat center;
+    background-size: cover;
+}
+
+.log {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.together {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+
+    
+}
+
+.together:hover {
+    width: 420px;
+    height: 310px;
+    border: 20px orange solid;
+    border-image: url('/assets/images/border.png') 30 round;
+    transition: all .6s;
+}
+
+.layui-form-item {
+    text-align: center;
+    margin-top: 5px;
+}
+.layui-btn-fluid{
+    background-image: linear-gradient(to left , #000000, #ffffff);
+}
+#goloing,#goreg{
+    color:#ffffff;
+    float: right;
+}
